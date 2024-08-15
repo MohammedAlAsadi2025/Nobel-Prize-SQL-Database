@@ -1,0 +1,8 @@
+NOTE RUN ALL PYTHON FILES WITH PYTHON3
+-install pandas library through pip3 install pandas
+-install mysql-connector through python3 -m pip install mysql-connector-python==8.0.5
+-I have an insertValues.py file that dosent need to be run as the file filled with insert statements already exists. If you want to test this file then you would have to go though the insert_statements file it makes and remove all apostrophes present in the description parts of the inserts as the turn alot of insert statements into comments, if any of them are not removed there will be errors present at the end of the insert statement.
+use dswork
+-run createTables.sql
+-run insertStatements.sql
+-Run the advancedConcepts.sql to create the views and procedures. Then you can test queries directly in mysql or you can run it through the menu with userInterface.py. Im not sure if the menu update function works.
